@@ -5,10 +5,7 @@ const Tmocker = defineTable({
     id: column.number({ primaryKey: true}),
     name: column.text(),
     email: column.text(),
-    // sessions: column.json(),
-    // start: column.date(),
-    // stop: column.date(),
-    // duration: column.date(),
+    
   }
 
 })

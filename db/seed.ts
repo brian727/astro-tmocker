@@ -1,13 +1,19 @@
-import { db, Tmocker } from 'astro:db';
+import { db, Tmocker, Sessions } from 'astro:db';
 
 
 export default async function() {
 	await db.insert(Tmocker).values([
 		{
-			id: 1,
+			id: 2,
 			name: 'John Doe',
 			email: 'dsf@gmail.com',
 		
+		},
+		{
+			id: 3,
+			name: 'John Doe',
+			email: 'dsf@gmail.com',
+	
 		},
 	 
 	])

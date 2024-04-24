@@ -2,3 +2,4 @@
 /// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
 
+ASTRO_STUDIO_APP_TOKEN = "";
